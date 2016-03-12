@@ -1,6 +1,6 @@
 class requiredrpms::install {
  
-  $pkglist = [ 'telnet', 'nc' ] 
+  $pkglist = [ 'telnet', 'nc', 'jwhois' ] 
   package { $pkglist:
     ensure => present,
   }
